@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  background-color: black;
+}
+.containerDiv {
+  height: 100vh;
+  /* background-image: url(../Images/Dots.png); */
+}
+.miniContainer {
+  margin-top: 60px;
+  /* background-color: grey; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.box {
+  height: 100%;
+  background-color: pink;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  flex: 0.2;
+  cursor: pointer;
+  transition: all 1s;
+  border-radius: 10px;
+}
+.box:active {
+  opacity: 90%;
+}
+.grow {
+  flex: 1;
+}
+.picture {
+  height: 100%;
+  width: 100%;
+}
